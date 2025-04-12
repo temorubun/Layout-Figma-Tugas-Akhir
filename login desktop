@@ -1,0 +1,45 @@
+Tolong buatkan desain UI/UX untuk halaman login aplikasi web kesehatan mental yang berfokus pada pasien ODGJ (Orang Dengan Gangguan Jiwa). Desain harus memiliki nuansa menenangkan dan profesional.
+
+Spesifikasi desain:
+
+1. Layout:
+   - Halaman login fullscreen dengan latar belakang gradien lembut biru muda ke putih
+   - Logo aplikasi di bagian atas tengah
+   - Form login berada di tengah halaman dalam card/container putih dengan bayangan lembut
+   - Ruang yang cukup antara elemen-elemen untuk menghindari tampilan yang sesak
+
+2. Elemen Form:
+   - Input field untuk username/email dengan ikon user/email
+   - Input field untuk password dengan ikon gembok dan toggle untuk show/hide password
+   - Checkbox "Ingat saya" di bawah field password
+   - Link "Lupa password?" di sebelah kanan checkbox atau di bawah tombol login
+   - Tombol login dengan warna aksen utama yang kontras namun menenangkan (biru sedang atau hijau mint)
+   - Desain hover dan active state untuk semua elemen interaktif
+
+3. Visual:
+   - Gunakan palet warna biru muda (#E6F3FF), biru sedang (#4A9DFF), dan aksen hijau mint (#7CDEAE)
+   - Font sans-serif yang bersih seperti Nunito atau Open Sans
+   - Ukuran teks yang nyaman dibaca (16px untuk input, 14px untuk teks sekunder)
+   - Sudut melengkung pada container dan tombol (border-radius: 8-12px)
+   - Ilustrasi sederhana yang menenangkan di bagian samping form (opsional)
+
+4. States dan Umpan Balik:
+   - Desain untuk pesan error (misalnya: "Email atau password salah")
+   - Desain untuk pesan sukses (misalnya: "Login berhasil, mengalihkan...")
+   - Loading state untuk tombol login saat proses otentikasi
+   - Validasi form dengan indikator visual (contoh: outline merah untuk error, hijau untuk valid)
+
+5. Responsivitas:
+   - Versi desktop (1440px width)
+   - Versi tablet (768px width)
+   - Versi mobile (375px width)
+
+Tambahan:
+- Pastikan desain mempertimbangkan aksesibilitas (kontras warna yang cukup, ukuran touch target yang memadai)
+- Gunakan prinsip desain yang menenangkan dan tidak menimbulkan stres atau kecemasan
+- Hindari warna-warna yang terlalu mencolok atau pola yang bisa mengganggu
+
+Output yang diharapkan:
+- Tampilan login page dengan semua state (normal, focus, error, success)
+- Komponen yang terorganisir dengan baik
+- Design system sederhana (colors, typography, spacing)
