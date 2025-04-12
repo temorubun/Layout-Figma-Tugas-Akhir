@@ -1,0 +1,100 @@
+Buatkan desain UI/UX Figma untuk halaman dashboard desktop aplikasi manajemen pasien ODGJ di Rumah Rehabilitasi Yayasan Griya Satu Mimika. Desain harus profesional, intuitif, dan optimized untuk tenaga kesehatan yang menangani pasien ODGJ.
+
+SPESIFIKASI DESAIN DASHBOARD:
+
+1. Layout Utama (1440px width):
+   - Sidebar vertikal permanen di sebelah kiri (width 260px) dengan warna biru muda (#E6F3FF)
+   - Header area (height 70px) dengan warna putih dan bayangan halus
+   - Area konten utama dengan grid system 12-column dan padding konsisten
+   - Footer minimal dengan informasi copyright dan versi aplikasi
+
+2. Navigasi Utama (Sidebar):
+   - Logo Yayasan Griya Satu Mimika di bagian atas
+   - Foto profil pengguna dengan nama dan role dibawah logo
+   - Menu navigasi dengan ikon dan teks:
+     * Dashboard (aktif) - ikon home/dashboard
+     * Pasien - ikon user/patient
+     * Petugas - ikon staff/medical
+     * Pengingat Obat - ikon pill/medicine
+     * Pengawasan - ikon monitoring/camera
+     * Hiburan - ikon entertainment/game
+     * Asisten AI - ikon robot/AI
+     * Pengaturan - ikon settings/gear
+   - Visual indicator untuk menu aktif (highlight warna dan bar vertikal)
+   - Tombol logout di bagian bawah sidebar
+
+3. Header Area:
+   - Judul halaman "Dashboard" dengan typography yang jelas
+   - Search bar global
+   - Notifikasi icon dengan counter untuk alert penting
+   - Icon pengaturan cepat
+   - Informasi waktu dan tanggal saat ini
+
+4. Area Konten (Widgets & Cards):
+   
+   a. Widget Statistik Utama (row pertama):
+      - 4 card statistik dengan ukuran sama:
+        * Total Pasien (dengan angka & persentase perubahan)
+        * Pasien Aktif Hari Ini
+        * Total Petugas (dengan indikator shift saat ini)
+        * Alert Obat Hari Ini (jumlah pengingat obat yang perlu diberikan)
+      - Setiap card memiliki ikon representatif, angka utama, dan trend indicator
+   
+   b. Widget Grafik Pasien (row kedua, kolom kiri):
+      - Line chart menampilkan tren kondisi pasien selama 30 hari terakhir
+      - Filter periode waktu (7 hari, 30 hari, 3 bulan)
+      - Legend yang jelas untuk setiap metrik
+      - Tooltip informatif saat hover pada data point
+   
+   c. Widget Distribusi Pasien (row kedua, kolom kanan):
+      - Pie/donut chart menampilkan distribusi pasien berdasarkan kategori kondisi
+      - Persentase dan jumlah absolut untuk setiap kategori
+      - Color coding yang intuitif dengan legend
+   
+   d. Widget Jadwal Obat (row ketiga, kolom kiri):
+      - Tabel jadwal pemberian obat terdekat hari ini
+      - Kolom: Waktu, Nama Pasien, Nama Obat, Dosis, Status (pending/completed)
+      - Sorting dan filtering options
+      - Action button untuk menandai sebagai "completed"
+   
+   e. Widget Aktivitas Petugas (row ketiga, kolom kanan):
+      - Timeline aktivitas petugas terbaru
+      - Avatar petugas, timestamp, dan deskripsi aktivitas
+      - Filter berdasarkan jenis aktivitas
+      - Badge untuk aktivitas penting
+
+5. Quick Links (row keempat):
+   - 4-6 card dengan action button untuk akses cepat ke:
+     * Tambah Pasien Baru
+     * Jadwal Shift Petugas
+     * Aktivasi Asisten AI
+     * Laporan Harian
+     * Panggilan Darurat
+   - Setiap card memiliki ikon, judul, dan deskripsi singkat
+
+6. Visual Design:
+   - Palet warna utama: biru (#4A9DFF) sebagai warna utama, hijau mint (#7CDEAE) sebagai aksen positif, merah muda (#FF6B6B) untuk alert
+   - Tipografi: Sans-serif modern (Nunito atau Inter) dengan hierarki yang jelas
+   - Card design dengan sudut membulat (12px) dan shadow halus
+   - Ikon konsisten dengan stroke style 2px
+   - Data visualization dengan warna yang mudah dibedakan dan aksesibel
+   - Whitespace yang cukup untuk menghindari kesan crowded
+
+7. Interaksi dan States:
+   - Hover states untuk semua elemen interaktif
+   - Loading states untuk data yang memerlukan waktu loading
+   - Empty states dengan ilustrasi dan pesan informatif
+   - Filter dan sorting controls yang jelas
+   - Dropdown dan modal designs untuk interaksi kompleks
+
+8. Responsivitas:
+   - Breakpoints untuk 1440px, 1200px, dan 992px
+   - Perilaku sidebar saat window size berubah
+   - Reflow konten pada ukuran layar yang berbeda
+
+OUTPUT YANG DIHARAPKAN:
+- Design file Figma lengkap untuk dashboard desktop
+- Component library untuk elemen UI yang dapat digunakan kembali
+- Prototype interaktif menunjukkan navigasi dan interaksi utama
+- Style guide lengkap (warna, tipografi, spacing, shadows)
+- Documentation naming conventions untuk komponen
