@@ -1,0 +1,42 @@
+Tolong buatkan desain UI/UX untuk halaman login mobile aplikasi kesehatan mental yang dikhususkan untuk pasien ODGJ (Orang Dengan Gangguan Jiwa). Fokus pada versi mobile dengan ukuran layar 375px width (standar iPhone).
+
+Spesifikasi halaman login mobile:
+
+1. Layout:
+   - Desain fullscreen responsif untuk perangkat mobile
+   - Struktur vertikal dengan logo di bagian atas (sekitar 25% dari ketinggian layar)
+   - Form login berada di tengah dalam card/container dengan bayangan halus
+   - Tata letak yang nyaman dipandang dengan ruang bernafas yang cukup
+
+2. Elemen Form Login:
+   - Field input username/email dengan ikon dan placeholder text yang jelas
+   - Field input password dengan ikon gembok dan tombol show/hide password
+   - Kedua field input memiliki ukuran yang nyaman untuk interaksi sentuh (min. height 48px)
+   - Tombol login berukuran besar (minimal 90% lebar container) dengan tinggi 50-56px
+   - Checkbox "Ingat saya" dan link "Lupa password" di bawah field dengan ukuran tap area yang cukup
+
+3. Visual dan Warna:
+   - Palet warna menenangkan: background gradien lembut (biru sangat muda ke putih)
+   - Warna utama biru muda (#E6F3FF) dan aksen hijau mint (#7CDEAE)
+   - Font sans-serif yang bersih (Nunito atau Open Sans)
+   - Ukuran teks yang optimal untuk mobile (16px untuk input text, 14px untuk text sekunder)
+   - Kontras warna yang baik untuk memastikan keterbacaan
+
+4. Feedback dan States:
+   - Desain pesan error yang jelas namun tidak mengintimidasi (misal: "Email atau password tidak sesuai")
+   - Pesan sukses dengan indikator visual (misal: animasi check mark sederhana)
+   - Keyboard yang tidak menutupi form login (pertimbangkan scroll behavior)
+   - Visual feedback saat tombol ditekan (pressed state)
+   - Loading state pada tombol login saat proses otentikasi
+
+5. Pertimbangan Khusus ODGJ:
+   - Tampilan yang bersih dan tidak membingungkan
+   - Hindari warna-warna mencolok atau pola yang bisa memicu kecemasan
+   - Petunjuk teks yang jelas dan tidak ambigu
+   - Tombol bantuan/informasi jika diperlukan
+
+Output yang diharapkan:
+- Desain halaman login mobile dalam ukuran 375px width
+- Variasi state untuk form: normal, focus, error, dan success
+- Spesifikasi komponen (ukuran, warna, spasi)
+- Interactive prototype untuk menunjukkan alur login
